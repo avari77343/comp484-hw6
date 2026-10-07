@@ -1,4 +1,4 @@
-# Anjella - COMP 484 HW6
+# Angelo Varias - COMP 484 HW6
 
 Personal resume website for COMP 484 HW6.
 
