@@ -6,10 +6,10 @@ Personal resume website for COMP 484 HW6.
 
 After enabling GitHub Pages, replace the placeholder below with the live website URL:
 
-`https://YOUR-USERNAME.github.io/comp484-hw6/`
+https://avari77343.github.io/comp484-hw6/
 
 ## Contents
 
 - `index.html` - Resume page
 - `css/styles.css` - External stylesheet
-- `images/anjella-avatar.svg` - Resume avatar
+- `images/angelo-avatar.svg` - Resume avatar
