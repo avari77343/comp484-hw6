@@ -1,0 +1,154 @@
+/* Color Palette
+# 0B132B - Deep Navy
+# 1C2541 - Navy Blue
+# 3A506B - Slate Blue
+# 5BC0BE - Teal
+# F4F7F6 - Off White
+# 111827 - Dark Text
+*/
+
+/* Global styles 
+------------------------------------*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #F4F7F6;
+    color: #111827;
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+/* Header & Footer 
+------------------------------------*/
+header {
+    background: #0B132B;
+    color: #F4F7F6;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header img {
+    width: 130px;
+    height: 130px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 5px solid #5BC0BE;
+}
+
+header h2 {
+    margin: 8px 0 20px;
+    color: #5BC0BE;
+}
+
+header p {
+    max-width: 750px;
+    margin: 0 auto;
+    font-size: 1.05rem;
+}
+
+footer {
+    background: #1C2541;
+    color: #F4F7F6;
+    text-align: center;
+    padding: 35px 20px;
+    margin-top: 30px;
+}
+
+footer h2 {
+    color: #5BC0BE;
+    margin-top: 0;
+}
+
+footer a {
+    display: inline-block;
+    margin: 5px 10px;
+    color: #F4F7F6;
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom: 2px solid #5BC0BE;
+}
+
+footer a:hover {
+    color: #5BC0BE;
+}
+
+/* Work Experience
+------------------------------------*/
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section {
+    margin: 30px 20px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(11, 19, 43, 0.08);
+}
+
+section:first-child {
+    background: #E8F5F4;
+    border-left: 7px solid #5BC0BE;
+}
+
+section:first-child h2 {
+    color: #0B132B;
+    border-bottom: 2px solid #5BC0BE;
+    padding-bottom: 8px;
+}
+
+section:first-child h3 {
+    color: #1C2541;
+    margin-bottom: 0;
+}
+
+section:first-child p:nth-of-type(1),
+section:first-child p:nth-of-type(2) {
+    color: #3A506B;
+    font-weight: 500;
+}
+
+section li {
+    margin-bottom: 8px;
+}
+
+/* Education
+------------------------------------*/
+section:nth-child(2) {
+    background: #EDEFF5;
+    border-left: 7px solid #3A506B;
+}
+
+section:nth-child(2) h2 {
+    color: #0B132B;
+    border-bottom: 2px solid #3A506B;
+    padding-bottom: 8px;
+}
+
+section:nth-child(2) h3 {
+    color: #1C2541;
+}
